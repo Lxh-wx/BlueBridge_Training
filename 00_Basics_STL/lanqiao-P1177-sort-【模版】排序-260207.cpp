@@ -2,7 +2,7 @@
 
 using namespace std;
 int n;
-int a[10005];
+int a[100005];
 
 int main() {
  
@@ -14,7 +14,7 @@ int main() {
 	}
 	sort(a,a+n);
 	for(int i=0;i<n;i++){
-    	cout<<a[i];
+    	cout<<a[i]<<" ";
 	}
 	
 

@@ -28,7 +28,7 @@ int main() {
 		break;
 	}
 	if(c){
-		cout<<"jolly";
+		cout<<"Jolly";
 	}else{
 		cout<<"Not jolly";
 	}
