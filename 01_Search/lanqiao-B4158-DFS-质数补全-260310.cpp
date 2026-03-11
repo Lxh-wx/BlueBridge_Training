@@ -5,7 +5,6 @@ typedef long long ll;
 const int INF = 0x3f3f3f3f;
 int t;
 string  a[12];
-//g给我挑问题但是不要直接告诉我答案，我确实有些地方写不明白了 
 bool check_prime(string c){
 	ll b=stoll(c);
 	if(b<2)
