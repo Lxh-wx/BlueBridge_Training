@@ -60,8 +60,8 @@ int main() {
 				if(vis[mp[{nx,ny}].first][mp[{nx,ny}].second]==-1){
 				node.push(mp[{nx,ny}]);
 				vis[mp[{nx,ny}].first][mp[{nx,ny}].second]=vis[temp[30].first][temp[30].second]+1;
-				continue;
 				}
+				continue;
 			}
 			if(vis[nx][ny]==-1){
 				vis[nx][ny]=vis[temp[30].first][temp[30].second]+1;

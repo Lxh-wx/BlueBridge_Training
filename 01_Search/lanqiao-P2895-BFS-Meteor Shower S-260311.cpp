@@ -22,12 +22,8 @@ int main() {
     	for(int j=0;j<4;j++){
     		int nx=x+dx[j];
     		int ny=y+dy[j];
-    		if(a[nx][ny]>0){
-    			a[nx][ny]=min(a[nx][ny],t);
-    			continue;
-			}
     		if(nx<0||nx>300||ny<0||ny>300)continue;
-    		a[nx][ny]=t;
+    		a[nx][ny]=min(a[nx][ny],t);
 		}
 	}
 	memset(vis,-1,sizeof(vis));
