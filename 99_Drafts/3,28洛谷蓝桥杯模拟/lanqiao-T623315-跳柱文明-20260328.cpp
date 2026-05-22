@@ -19,9 +19,9 @@ int main() {
 		cin>>n>>x;
 		
 		for(int j=1;j<=n;j++){
-			
 			cin>>a[j];
-			
+		}
+		for(int j=1;j<=n;j++){
 			if(j==1)continue;
 			if(a[j]<a[j-1]){
 				if(a[j-1]-a[j]>x){
