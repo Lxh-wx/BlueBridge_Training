@@ -15,8 +15,8 @@ int main(){
 		if(!notp[i]) p.push_back(i);
 		for(int e:p){
 			if((ll)i*e>n)break;
-			if(i%e==0)break;
 			notp[i*e]=1;
+			if(i%e==0)break;
 		}
 	}
 	int t=0;

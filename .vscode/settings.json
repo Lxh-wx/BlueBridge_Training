@@ -1,0 +1,46 @@
+{
+    "editor.fontSize": 18,
+    "editor.tabCompletion": "off",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.hover.enabled": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showStructs": false,
+    "editor.snippetSuggestions": "none",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "[cpp]": {
+        "editor.quickSuggestions": {
+            "other": false,
+            "comments": false,
+            "strings": false
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.wordBasedSuggestions": "off",
+        "editor.inlineSuggest.enabled": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": {
+            "other": false,
+            "comments": false,
+            "strings": false
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.wordBasedSuggestions": "off",
+        "editor.inlineSuggest.enabled": false
+    }
+}
